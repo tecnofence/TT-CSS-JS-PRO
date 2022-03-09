@@ -1,0 +1,47 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+
+#header-id, 
+#main-id,
+#footer-id{
+   
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+#header-id, #main-id, #footer-id p{
+    color: red;
+    font-size: 2rem;
+    font-weight: bold ;  
+    text-transform: uppercase;
+    
+}
+
+#main-id{
+    background-color: #aa00bb;
+   
+}
+
+
+#footer-id{
+    background-color: #aaffbb;
+}
+
+#header-id{ 
+    background-color: #0000bb;
+}
