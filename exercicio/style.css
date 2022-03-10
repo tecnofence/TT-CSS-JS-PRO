@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background: rgba(0, 31, 58, 1);
+    --largura: 368px;
+    --altura: 252px;
+    --cor-1: rgba(255, 145, 46, 1);
+    --cor-2: rgba(135, 0, 147, 1);
+    --cor-3: rgba(0, 57, 107, 0.5);
+    --cor-4: rgba(255, 255, 255, 1);
+
+    
+}
+
+body{
+    background-color: var(--background) ;
+}
+
+#container{
+    position: relative;
+    
+}
+
+.caixa-1, 
+.caixa-2,
+.caixa-3, 
+.caixa-4,
+.caixa-5{
+    width: var(--largura);
+    height: var(--altura);
+ 
+    float: left;
+    margin: 100px 200px 0 0 ;    
+   
+}
+
+.caixa-4 p ,
+.caixa-5 p {
+    
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.caixa-1{
+    background: var(--cor-1);
+}
+
+.caixa-2{
+    background: var(--cor-2);
+}
+
+.caixa-3{
+    background-color: var(--cor-3);
+}
+
+.caixa-4{
+    background: var(--cor-3);
+    color: white;
+}
+
+.caixa-5{
+    background-color: var(--cor-4);
+    color: red;
+}
+
+
+
