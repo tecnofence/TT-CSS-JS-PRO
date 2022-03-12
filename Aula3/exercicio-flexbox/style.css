@@ -1,0 +1,211 @@
+.bloco-1{
+    background-color:rebeccapurple ;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    
+    
+}
+.caixa1, .caixa2, .caixa3, .caixa4{
+    background: white;
+    margin: 10px;
+    width: 80px;
+    text-align: center;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+
+
+.bloco-2{
+    background-color:rebeccapurple ;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.caixa11, .caixa22, .caixa33, .caixa44{
+    background: white;
+    margin: 10px;
+    width: 60px;
+    height:50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.bloco-3{
+    background-color:rebeccapurple ;
+    width: 100px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.caixa111, .caixa222, .caixa333, .caixa444{
+    background: white;
+    margin: 10px;
+    width: 60px;
+    height:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+.bloco-4{
+    background-color:rebeccapurple ;
+    width: 100px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.caixa1111, .caixa2222, .caixa3333, .caixa4444{
+    background: white;
+    margin: 10px;
+    width: 60px;
+    height:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.caixa1111{
+    order: 3;
+}
+
+.caixa2222{
+    order:1;
+
+}
+
+.caixa3333{
+    order:2;
+
+}
+
+
+.caixa4444{
+    order:4;
+
+}
+
+.bloco-5{
+    background-color:rebeccapurple ;
+    width: 500px;
+    height: 330px;
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.caixa11111, .caixa22222, .caixa33333, .caixa44444{
+    background: white;
+    margin: 5px;
+    width: 200px;
+    height:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+.bloco-6{
+    background-color:rebeccapurple ;
+    width: 500px;
+    height: 330px;
+    display: flex; 
+    align-items: flex-start;
+   
+}
+
+
+.caixa111111, .caixa333333, .caixa444444{
+  
+    background: white;
+    margin: auto;
+    width: 100px;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.caixa222222{
+ 
+    background: white;
+    margin: auto;
+    width: 100px;
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+
+}
+
+.bloco-7{
+    background-color:rebeccapurple ;
+    width: 500px;
+    height: 330px;
+  
+
+    
+  
+   
+}
+
+.bloco-7a, .bloco-7b{
+   
+    display: flex; 
+    justify-content: space-between;
+    
+  
+}
+
+.bloco-7b{
+    margin-top: 110px;
+}
+
+
+
+
+
+
+
+.caixa1111111, .caixa2222222, .caixa3333333, .caixa4444444{
+    background: white;
+    margin: 5px;
+    width: 100px;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+
+    
+
+
